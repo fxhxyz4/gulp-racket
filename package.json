@@ -28,9 +28,6 @@
       "email": "fxhxyz@proton.me"
     }
   ],
-  "scripts": {
-    "test": "echo test"
-  },
   "license": "MIT",
   "engines": {
     "node": "20.x"
