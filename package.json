@@ -1,0 +1,44 @@
+{
+  "name": "gulp-racket",
+  "version": "1.0.0",
+  "description": "RacketScript gulp plugin",
+  "keywords": [
+    "gulp",
+    "gulp.js",
+    "racket",
+    "racketscript",
+    "javascript",
+    "plugin",
+    "gulp-plugin",
+    "gulp-racket"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "author": {
+    "name": "fxhxyz4",
+    "email": "fxhxyz@proton.me",
+    "url": "https://fxhxyz.vercel.app/"
+  },
+  "homepage": "https://www.npmjs.com/package/gulp-racket",
+  "bugs": "https://github.com/fxhxyz4/gulp-racket/issues",
+  "repository": "https://github.com/fxhxyz4/gulp-racket.git",
+  "maintainers": [
+    {
+      "name": "fxhxyz4",
+      "email": "fxhxyz@proton.me"
+    }
+  ],
+  "scripts": {
+    "test": "echo test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "mocha": "^10.2.0",
+    "through2": "^4.0.2"
+  }
+}
