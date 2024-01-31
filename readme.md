@@ -20,7 +20,7 @@ const racket = () => {
 };
 ```
 
-### Example: [view example folder](./example)
+### Example of use: [view example folder](./example)
 
 #
 
