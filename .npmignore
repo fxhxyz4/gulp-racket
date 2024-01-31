@@ -1,3 +1,8 @@
+.github
+.vscode
+.editorconfig
+.prettierrc
+release.sh
 node_modules
 .DS_Store
 *.lock
