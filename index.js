@@ -1,7 +1,7 @@
 import { exec } from 'child_process';
 import through from 'through2';
 import utils from 'gulp-util';
-import { unlink } from 'fs';
+import fs from 'fs';
 
 let transform, error, rktFile;
 
@@ -13,7 +13,7 @@ export default function (dir) {
 
     if (file.isStream()) {
       error = new utils.PluginError(
-        'gulp-coffee-plgn',
+        'gulp-racket',
         'Streaming not supported'
       );
 
@@ -21,7 +21,7 @@ export default function (dir) {
     }
 
     try {
-      rktFile = exec(
+     rktFile = exec(
         `racks -d ${dir} ${file.path}`,
         (error, stdout, stderr) => {
           if (error) {
@@ -35,7 +35,13 @@ export default function (dir) {
           }
 
           rktFile = stdout;
-          unlink(`${dir}/package.json`, err => err);
+          fs.rm(`${dir}/cache`, { recursive: true, force: true }, err => {
+            if (err) {
+              throw err;
+            }
+          });
+
+          fs.unlink(`${dir}/package.json`, err => err);
 
           callback(null, file);
         }

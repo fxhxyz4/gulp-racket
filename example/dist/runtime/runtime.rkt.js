@@ -1,1 +1,0 @@
-import * as $rjs_core from './core.js';import * as M0 from "./lib.rkt.js";var values = function() {var vals2 = M0.Core.argumentsToArray(arguments);if ((vals2.length===1)!==false) {var if_res1 = vals2[0];} else {var if_res1 = M0.Values.make(vals2);}return if_res1;};var __rjs_quoted__ = {};export { __rjs_quoted__,values };
