@@ -1,4 +1,4 @@
-## [gulp-racket](https://npmjs.com/package/gulp-racket) - [RacketScript](https://github.com/racketscript/racketscript) - [Gulp](https://gulpjs.com/)
+## <img src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" width="30" height="60" /> [gulp-racket](https://npmjs.com/package/gulp-racket) - [RacketScript](https://github.com/racketscript/racketscript) - [Gulp](https://gulpjs.com/)
 
 ![](https://img.shields.io/npm/v/gulp-racket)
 ![](https://img.shields.io/github/issues/fxhxyz4/gulp-racket)
