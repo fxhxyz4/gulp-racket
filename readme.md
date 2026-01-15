@@ -34,6 +34,7 @@ cd racketscript
 ## 3. Install RacketScript dependencies (requires Racket to be installed)
 
 ```sh
+export PATH=$PATH:/var/lib/snapd/snap/bin
 raco pkg install --auto racketscript
 ```
 
